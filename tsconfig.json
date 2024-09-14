@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",             // Modern JavaScript support
+    "module": "ESNext",            
+    "esModuleInterop": true,         // Allows import/export interop with CommonJS
+    "strict": true,                  // Enable strict type-checking
+    "skipLibCheck": true,            // Skip type checking for libraries
+    "forceConsistentCasingInFileNames": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "moduleResolution": "node",      // Resolve modules like Node.js
+    "outDir": "./dist",              // Output directory for compiled files
+    "rootDir": "./src"               // Root directory of TypeScript files
+  },
+  "include": ["src"],                // Include only files in the "src" directory
+  "exclude": ["node_modules"]        // Exclude dependencies
+}
